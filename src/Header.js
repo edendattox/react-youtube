@@ -23,17 +23,17 @@ function Header() {
     </div>
     
     <div className="header__input">
-    <input type="text"/>
-   <SearchIcon/>
+      <input type="text"/>
+      <SearchIcon className="header__inputButton" placeholder="Search" />
     </div>
     
    <div className="header__icons">
-    <VideoCallIcon />
-    <AppsIcon />
-    <NotificationsIcon />
-    <Avatar 
-     alt="eden"
-     src="https://i.pinimg.com/564x/bb/0b/d0/bb0bd0e0477fadc41393c7f64571e321.jpg"
+      <VideoCallIcon className="header__icon"/>
+       <AppsIcon className="header__icon"/>
+       <NotificationsIcon className="header__icon"/>
+       <Avatar 
+       alt="eden"
+       src="https://i.pinimg.com/564x/bb/0b/d0/bb0bd0e0477fadc41393c7f64571e321.jpg"
     />
    </div>
     
