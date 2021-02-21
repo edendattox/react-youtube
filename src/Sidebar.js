@@ -1,4 +1,3 @@
-import { Home, Subscriptions, Whatshot } from '@material-ui/icons';
 import React from 'react';
 import "./Sidebar.css";
 import SidebarRow from "./SidebarRow";
